@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>PongbOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="boot-animation">
+        <div class="boot-logo">
+            <div class="logo-text">PongbOS</div>
+            <div class="logo-subtitle">Power by PongbCloud</div>
+            <div class="boot-progress">
+                <div class="boot-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="phone" id="phone">
+        <div id="lockscreen">
+            <div id="lock-time">12:00</div>
+            <div id="lock-date">Thứ Hai, 1 tháng 1</div>
+            <div id="lock-info">Vuốt lên để mở khóa</div>
+        </div>
+
+        <div class="status">
+            <div>📶 LTE</div>
+            <div id="status-time">12:00</div>
+            <div>🔋 100%</div>
+        </div>
+
+        <div class="home">
+            <div class="grid" id="grid"></div>
+        </div>
+
+        <div class="dock">
+            <div class="dock-icon" data-app="Browser">🌐</div>
+            <div class="dock-icon" data-app="Music">🎵</div>
+            <div class="dock-icon" data-app="ChatCBD">🤖</div>
+            <div class="dock-icon" data-app="Call">📞</div>
+            <div class="dock-icon" data-app="Notes">🗒️</div>
+            <div class="dock-icon" data-app="Speedtest">📊</div>
+            <div class="dock-icon" data-app="Settings">⚙️</div>
+        </div>
+
+        <div class="app-window" id="appWindow">
+            <div class="app-header">
+                <div class="app-title" id="appTitle"></div>
+                <button class="close-btn" id="closeApp">✕</button>
+            </div>
+            <div class="app-body" id="appBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
